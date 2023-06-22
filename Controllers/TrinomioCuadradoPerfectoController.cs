@@ -17,7 +17,7 @@ namespace FuncionesCalculadora.Controllers
     [HttpGet(Name = "TrinomioCuadradoPerfecto")]
     public int CalcularTrinomioCuadradoPerfecto(int a, int b)
     {
-      return ((int)Math.Pow(a, 2) + 2 * (a * b) - (int)Math.Pow(b, 2));
+      return ((int)Math.Pow(a, 2) + 2 * (a * b) + (int)Math.Pow(b, 2));
     }
 
   }
